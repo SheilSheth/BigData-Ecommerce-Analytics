@@ -1,0 +1,12 @@
+# Keep the full dataset and generated results out of Git
+dataset/raw/*
+!dataset/raw/.gitkeep
+output/*
+!output/.gitkeep
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local environment files
+.env
