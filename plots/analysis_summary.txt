@@ -1,0 +1,50 @@
+E-COMMERCE TRANSACTION ANALYSIS SUMMARY
+=======================================
+Raw rows: 541,909
+Rows with valid invoice/date/country/quantity/price: 541,909
+Rows included in positive-sales analysis: 530,104
+Distinct countries in positive-sales analysis: 38
+Distinct invoices in positive-sales analysis: 19,960
+Distinct product codes in positive-sales analysis: 3,922
+Distinct product descriptions in positive-sales analysis: 4,015
+Positive-sales revenue (positive quantity/price, non-C invoices): 10,666,684.54
+Distinct cancellation-style invoice IDs (beginning with C): 3,836
+Rows with negative quantity: 10,624
+Sum of revenue values on negative-quantity rows: -896,812.49
+Top 5 countries' share of positive-sales revenue: 94.06%
+Top 10 countries' share of positive-sales revenue: 97.21%
+
+Top 5 countries by positive-sales revenue:
+Country
+United Kingdom    9025222.084
+Netherlands        285446.340
+EIRE               283453.960
+Germany            228867.140
+France             209715.110
+
+Top 5 products by positive-sales revenue:
+Description
+DOTCOM POSTAGE                        206248.77
+REGENCY CAKESTAND 3 TIER              174484.74
+PAPER CRAFT , LITTLE BIRDIE           168469.60
+WHITE HANGING HEART T-LIGHT HOLDER    106292.77
+PARTY BUNTING                          99504.33
+
+Top 5 products by units sold:
+Description
+PAPER CRAFT , LITTLE BIRDIE           80995
+MEDIUM CERAMIC TOP STORAGE JAR        78033
+WORLD WAR 2 GLIDERS ASSTD DESIGNS     55047
+JUMBO BAG RED RETROSPOT               48474
+WHITE HANGING HEART T-LIGHT HOLDER    37891
+
+Monthly revenue peak:
+2011-11: 1,509,496.33
+
+Metric definitions:
+- Line revenue = Quantity * UnitPrice.
+- Positive-sales analysis excludes invoice IDs beginning with C, non-positive quantities, and non-positive prices.
+- Cancellation-style invoice IDs are identified by an invoice number beginning with C.
+- Negative-quantity rows are analysed separately and are not necessarily all confirmed returns.
+- AOV = positive-sales revenue for a month / distinct positive-sales invoices for that month.
+- No currency conversion is applied; values use the dataset's recorded price units.
