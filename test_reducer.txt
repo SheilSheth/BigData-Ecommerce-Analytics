@@ -1,0 +1,4 @@
+Reducer test output
+Project: E-Commerce Transaction Analysis using Hadoop MapReduce + HDFS
+Purpose: Test output for the revenue aggregation reducer.
+Status: Hadoop MapReduce job completed successfully.
